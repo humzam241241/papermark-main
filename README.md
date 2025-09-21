@@ -93,6 +93,11 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
+## Windows quick start
+- Double-click `run-dev.bat` from the repo root.
+- It installs deps per the lockfile, ensures TypeScript dev deps, starts the dev server, and opens your browser at http://localhost:3000.
+- Use Node 20 (see `.nvmrc`). Avoid mixing npm/pnpm/yarn.
+
 ## Tinybird Instructions
 
 To prepare the Tinybird database, follow these steps:
