@@ -139,11 +139,11 @@ const nextConfig = {
       },
     ];
   },
+  outputFileTracingIncludes: {
+    "/api/mupdf/*": ["./node_modules/mupdf/dist/*.wasm"],
+  },
   experimental: {
-    outputFileTracingIncludes: {
-      "/api/mupdf/*": ["./node_modules/mupdf/dist/*.wasm"],
-    },
-    missingSuspenseWithCSRBailout: false,
+    // missingSuspenseWithCSRBailout: false, // Removed - not supported in Next.js 15
   },
 };
 
